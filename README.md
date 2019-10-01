@@ -31,6 +31,11 @@ First, we'll add a polygon shapefile of plant communities originally created for
 2. In the ArcMap file dialog, browse to Home > GIS Sourcefiles
 3. Select and add `NA carbon project.shp`
 
+```
+Add another basemap
+
+NYS Orthos 2018
+
 rename to "Plant Communities"
 attribute table, indentify tool
 symbology by category
@@ -44,7 +49,7 @@ edit -- add dbh, species columns
 layouts
 scale bar, north arrow, legend
 export map image - formats, dpi
-
+```
 
 
 
