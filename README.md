@@ -1,7 +1,7 @@
 ## ArcMap workshop for PLHRT 4400
 
 
-# Map the network drive
+# Getting started
 
 We will be using a network drive that has been set up with data files and map documents.  Each student should have read and write access to this folder.
 
@@ -13,33 +13,48 @@ We will be using a network drive that has been set up with data files and map do
 
 Once it connects, the folder should open automatically.  If it fails, try again...
 
-
-# Open the ArcMap document
-
-Each student should have an .mxd file named "Restoration Ecology Project" followed by their NetID.
-
-1. Double-click the .mxd file with your NetID to open your map.
-
-2. We'll explore the table of contents, turning on different layers, bookmarks, and changing some of the symbology...
+Each student should have an .mxd file named "Restoration Ecology Project_" followed by their NetID.
 
 
-# Add more data
+# Exploring the map
 
-First, we'll add a polygon shapefile of plant communities originally created for the NA carbon project.
+Double-click the .mxd file with your NedID to open your map.
+
+We'll spend some time exploring the map, turning on different layers, changing the symbology, etc.
+
+
+# Adding another shapefile
+
+To add a polygon shapefile of plant communities:
 
 1. File menu > Add Data > Add Data...
 2. In the ArcMap file dialog, browse to Home > GIS Sourcefiles
 3. Select and add `NA carbon project.shp`
 
-```
-Add another basemap
-
-NYS Orthos 2018
-
 rename to "Plant Communities"
 attribute table, indentify tool
 symbology by category
 transparency
+
+# Adding another basemap
+
+The map document already includes NYS imagery from various years.  We can add the latest 2018 imagery via the NYS Web Map Service.
+
+1. Add Data
+2. Look in: "GIS Servers"
+3. Add ArcGIS Server
+4. Select "Use GIS services"
+5. Server URL = http://www.orthos.dhses.ny.gov/arcgis/services
+6. Double-click `arcgis on www.orthos.dhses.ny.gov`
+7. Add the 2018 layer
+
+Wait for the layer to be added to the map.  Depending on where it appears in the table of contents, you may need to move it up or down, or turn off other layers for it to be visible.
+
+For more details about the NYS Orthoimagery, see https://gis.ny.gov/gateway/mg/
+
+```
+
+
 
 go outside, collect GPS waypoints
 have a backup .gpx file just in case
