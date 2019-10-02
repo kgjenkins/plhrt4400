@@ -18,7 +18,7 @@ Each student should have an .mxd file named "Restoration Ecology Project_" follo
 
 # Explore the map
 
-Double-click the .mxd file with your NedID to open your map.
+Double-click the .mxd file with your NetID to open your map.
 
 We'll spend some time exploring the map, turning on different layers, changing the symbology, etc.
 
