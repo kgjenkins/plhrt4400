@@ -102,3 +102,8 @@ When you are ready to export the map image:
 4. "File" menu > Export Map...
 
 Note the various file types (Adobe Illustrator, PDF, JPEG, etc.)  Depending on your map and export type, you may want to adjust the export resolution (dpi).
+
+
+# Saving your project
+
+Instructions for saving as an older ArcGIS 10.4 version...
