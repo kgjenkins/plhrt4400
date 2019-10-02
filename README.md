@@ -86,11 +86,19 @@ The new shapefile will be automatically added to the map.  To add the DBH and SP
 Try changing the symbology of your GPS points to use graduated symbols based on the DBH values.
 
 
-layouts
-scale bar, north arrow, legend
-export map image - formats, dpi
-```
+# Page Layout
 
+Thus far, we've been viewing an infinite view of the world with no edges to the map.  To print or save a map image, we'll create a page layout.
 
+1. "View" menu > Layout View
 
+The scale bar, north arrow, and legend have already been added (via the "Insert" menu).
 
+2. Adjust the left edge of the map so that it does not cover the legend.
+3. Select the legend element, then right-click > Properties to customize.
+
+When you are ready to export the map image:
+
+4. "File" menu > Export Map...
+
+Note the various file types (Adobe Illustrator, PDF, JPEG, etc.)  Depending on your map and export type, you may want to adjust the export resolution (dpi).
