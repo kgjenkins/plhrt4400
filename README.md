@@ -50,6 +50,8 @@ The map document already includes NYS imagery from various years.  We can add th
 
 Wait for the layer to be added to the map.  Depending on where it appears in the table of contents, you may need to move it up or down, or turn off other layers for it to be visible.
 
+8. Rename the layer to "2018 Ortho Imagery" (using the same method we used for the shapefile)
+
 For more details about the NYS Orthoimagery, see https://gis.ny.gov/gateway/mg/
 
 
@@ -65,6 +67,17 @@ We'll go outside and collect GPS waypoints for some individual trees, noting the
 | 4    | 12  | Fraxinus americana |
 
 Copy the .gpx file from the GPS unit to your personal folder under `Student_Share/Student Projects`.  (If we run into any trouble getting the data from the GPS units, copy the backup GPX file `Student_Share/GIS Sourcefiles/gps_backup/gps_points.gpx` to your folder.)
+
+We may need to use Garmin's BaseCamp to transfer the data:
+
+1. Install Garmin BaseCamp: https://www8.garmin.com/support/download_details.jsp?id=4435
+2. Connect the GPS to the computer via a USB cable
+3. Turn on the GPS unit
+4. Open BaseCamp. The GPS unit should show up under "devices"
+5. Click on the GPS unit name to view its internal storage
+6. Highlight your points
+7. Click file -> export -> export selection
+8. Save points to your project folder
 
 ArcMap can read .gpx files, but it will be more reliable to convert it to a shapefile first.
 
@@ -96,14 +109,19 @@ The scale bar, north arrow, and legend have already been added (via the "Insert"
 
 2. Adjust the left edge of the map so that it does not cover the legend.
 3. Select the legend element, then right-click > Properties to customize.
+4. Fix the "CBGardens_primary_RGB" which is supposed to be a logo.  Right-click > properties > update the simple path to point to the logo in the "GIS Sourcefiles" folder.
 
 When you are ready to export the map image:
 
-4. "File" menu > Export Map...
+5. "File" menu > Export Map...
 
 Note the various file types (Adobe Illustrator, PDF, JPEG, etc.)  Depending on your map and export type, you may want to adjust the export resolution (dpi).
 
 
 # Saving your project
 
-Instructions for saving as an older ArcGIS 10.4 version...
+Save your project as an ArcMap 10.4 document, so that it can be checked/graded:
+
+1. "File menu" > Save a Copy...
+2. Save as type = ArcMap 10.4 Document
+3. You can use the same filename you started with (otherwise it will add a "1" to the filename)
