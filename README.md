@@ -11,7 +11,7 @@ We will be using a network drive that has been set up with data files and map do
 4. Folder = `\\files.cornell.edu\fs\dept\ua_cpo\sharedgis\student_share`
 5. Press "Finish" and wait for it to connect
 
-Once it connects, the folder should open automatically.  If it fails, try again.  If you follow these instructions exactly, it usually connects after 2 tries.  Sometimes it helps to reboot the computer first.
+Once it connects, the folder should open automatically.  If it fails, ignore the error and try again.  If you follow these instructions exactly, it usually connects after 2 tries, despite the error messages.  Sometimes it helps to reboot the computer first.
 
 Each student should have an .mxd file named "Restoration Ecology Project_" followed by their NetID.
 
